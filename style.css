@@ -1,0 +1,159 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar {
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid black 1px;
+}
+
+.navbar__s1__title {
+    color: #A435F0;
+}
+
+.navbar__s2 {
+    padding: 10px;
+    border-radius: 30px;
+    border: solid black 1px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.navbar__s2 input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus {
+    outline: none;
+}
+
+.navbar__s3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+/* categories */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+    padding: 10px;
+}
+
+.categories p {
+    background-color: #A435F0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.sale img {
+    width: 100%;
+}
+
+.recommended {
+    padding: 10px;
+    margin-top: 10px;
+
+}
+
+.recommended__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 250px;
+}
+
+.course-card img {
+    width: 100%;
+    height: 50%;
+}
+
+.topics {
+    padding: 10px;
+
+}
+
+.topics__container {
+
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+
+
+}
+
+.topics__container p {
+    border: solid 2px grey;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
+
+.popular
+{
+    margin-top: 10px;
+    padding: 10px;
+}
+.popular__container
+{
+    display: flex;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.popular__card
+{
+    width: 300px;
+}
+.popular__card img{
+    width: 100%;
+    height: 50%;
+}
+
+.footer{
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.footer__one
+{
+    display: flex;
+    gap: 20px;
+    
+}
+.footer__one__s1 p
+{
+    margin: 20px;
+}
+
+.footer__two
+{
+    display: flex;
+    justify-content: space-between;
+    margin:20px;
+    align-items: center;
+} 
